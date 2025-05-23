@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Search</title> <!-- This will be dynamically updated -->
+  <title>Search</title> 
   <link rel="icon" href="https://www.bing.com/sa/simg/favicon-trans-bg-blue-mg.ico" type="image/x-icon" />
   <style>
     html, body {
@@ -26,7 +26,7 @@
     const query = params.get('q');
 
     if (query) {
-      document.title = `${query} - Search`; // Set the page title dynamically
+      document.title = `${query} - Search`; 
       const bingURL = `https://www.bing.com/search?q=${encodeURIComponent(query)}`;
       const embed = document.createElement('embed');
       embed.src = bingURL;
