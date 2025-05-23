@@ -1,5 +1,7 @@
 <h1 style="text-align: left;">How to setup</h1>
+
 1. Go to chrome://settings/search
+
 2. Click "Manage search engines and site search"
 3. Scroll until you see "Site search"
 4. Click add
